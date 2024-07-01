@@ -2,7 +2,7 @@ body{
     height:100vh;
     display: flex;
     flex-direction: column;
-  
+    
 
 }
 .footer{
@@ -14,5 +14,16 @@ align-items: center;
 background-color: red;
 flex: 1;
 
+}
+.header{
+display: flex;
+justify-content: space-between;
+margin-left: 50px;margin-right: 50px;
+}
+
+a {
+
+ padding-left: 10px;
+ text-decoration: none;
 }
 
