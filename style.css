@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0px;
-
+    color: white;
 }
 .footer{
 
@@ -20,7 +20,7 @@ flex-shrink: 0;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-left: 50px;margin-right: 50px;
+margin-left: 100px;margin-right: 100px;
 margin-top: 10px;
 
 }
@@ -29,10 +29,10 @@ a {
 
  padding-left: 10px;
  text-decoration: none;
- color: red;
+ color:white;
 }
 .one {
-    background-color: aqua;
+    background-color: #053B06;
     flex-shrink: 0;
     height: 400px;
 }
@@ -41,8 +41,7 @@ a {
     background-color: green;   
     
     flex-shrink: 0;
-  
-     height: 300px;
+    height: 300px;
 }
 .three{
     
@@ -66,4 +65,31 @@ a {
 font-size: 20px;
 font-weight: 900;
 }
+.mid{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.side{
+    
+    height: 150px;
+    width: 300px;
+}
+.s1{
 
+    padding-right: 10px;
+    text-align: left;
+    margin:0;
+}
+p{
+    color: grey;
+    margin: 0;
+    margin-bottom: 5px;
+}
+button{
+    border-radius: 8px;
+     background-color: #0DAB76;
+}
