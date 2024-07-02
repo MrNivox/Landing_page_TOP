@@ -12,6 +12,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: red;
+flex-shrink: 0;
 
 
 }
@@ -29,26 +30,33 @@ a {
 }
 .one {
     background-color: aqua;
-    flex: 1;
+    flex-shrink: 0;
+    height: 300px;
 }
 .two{
 
     background-color: green;   
-     flex: 1;
-
+    
+    flex-shrink: 0;
+  
+     height: 300px;
 }
 .three{
     
     background-color:blueviolet ;
-    flex: 1;
-
+    flex-shrink: 0;
+  
+  
+    height: 300px;
 
 }
 
 .four{
     background-color: chocolate;
-    flex: 1;
 
+    flex-shrink: 0;
+  
+    height: 300px;
 
 }
 
