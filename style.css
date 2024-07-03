@@ -11,7 +11,7 @@ height: 72px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: red;
+background-color:#053B06;
 flex-shrink: 0;
 
 
@@ -178,4 +178,12 @@ font-weight: bold;
 .subHeader{
 font-size: 15px;
 }
+.firstB{
 
+    border-color: transparent;
+    width: 80px;
+    height: 25px;
+}
+.t{
+    font-size: 10px;
+}
