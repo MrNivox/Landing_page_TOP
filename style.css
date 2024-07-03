@@ -103,6 +103,7 @@ button{
 
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 15px;
     font-size: 25px;
     font-weight: 900;
 }
@@ -113,7 +114,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
+    height: 300px;
 }
 
 img{
@@ -125,6 +126,7 @@ img{
    
 }
 .txt{
+    width: 200px;
     margin-left: 25px;
 }
 .p3 {color: white;
@@ -186,4 +188,7 @@ font-size: 15px;
 }
 .t{
     font-size: 10px;
+}
+.cards {
+    height: 300px;
 }
