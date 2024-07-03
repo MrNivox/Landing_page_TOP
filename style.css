@@ -59,10 +59,11 @@ a {
 
 .four{
     background-color: #0B5D1E;
-
+    display: flex;
     flex-shrink: 0;
-  
     height: 250px;
+    justify-content: center;
+    align-items: center;
 
 }
 .logo{
@@ -147,5 +148,34 @@ img{
     flex-direction: column;
     align-content: center;
     justify-content: center;
+}.text{
+    width: 700px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #0DAB76;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondB{
+width:100px;
+height: 30px;
+margin-right: 50px;
+border-color: #0B5D1E;
+}
+
+.contain{
+    width: 400px;
+    margin-left: 50px; 
+}
+.s4header{
+    font-size: 20px;
+font-weight: bold;
+
+}
+
+.subHeader{
+font-size: 15px;
 }
 
