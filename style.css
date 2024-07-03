@@ -127,6 +127,7 @@ img{
 }
 .txt{
     width: 200px;
+    max-width: 200px;
     margin-left: 25px;
 }
 .p3 {color: white;
