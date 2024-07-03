@@ -46,12 +46,14 @@ a {
     justify-content: center;
 }
 .three{
-    
-    background-color:blueviolet ;
+    display: flex;
+    background-color:#139A43;
     flex-shrink: 0;
-  
-  
     height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  
 
 }
 
@@ -123,3 +125,22 @@ img{
 .txt{
     margin-left: 25px;
 }
+p {color: white;
+    font-size: 25px;
+    width: 400;
+}    
+
+.pro{
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.k{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
