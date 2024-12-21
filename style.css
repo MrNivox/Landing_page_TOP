@@ -131,7 +131,7 @@ img{
     margin-left: 25px;
 }
 .p3 {color: white;
-    font-size: 25px;
+    font-size: 20px;
     width: 400;
 }    
 
@@ -192,4 +192,5 @@ font-size: 15px;
 }
 .cards {
     height: 300px;
+    display: flex;
 }
